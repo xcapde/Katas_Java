@@ -2,6 +2,8 @@ package katas;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
@@ -60,7 +62,6 @@ class CalculatorTest {
         assertEquals(0, result);
     }
 
-    // NO ESTÀ BÉ, HAURIA DE SER PERCENTATGES....
     @Test
     public void modNumber() {
         //GIVEN
@@ -92,15 +93,38 @@ class CalculatorTest {
         assertEquals(7, result);
     }
 
-    /*@Test
-    public void sumArray() {
+    @Test
+    public void returnSumArray() {
         //GIVEN
         Calculator calculator = new Calculator();
-        double [] doubleArry = new double[](1, 1, 3, 5, 40);
+        double[] numArr = new double[]{1, 1, 3, 5, 40};
         //WHEN
-        calculator.sumArry(doubleArry)
+        calculator.sumArrayNum(numArr);
         //THEN
+        double result = calculator.getTotal();
         assertEquals(50, result);
-    }*/
+    }
 
+    @Test
+    public void returnListNumBiggerEqualFive() {
+        //GIVEN
+        Calculator calculator = new Calculator();
+        int[] arrayOrigin = {3, 4, 5, 10, 100};
+        ArrayList<Integer> arrayOfNum = new ArrayList<Integer>();
+
+        //WHEN
+        for (int num : arrayOrigin) {
+            arrayOfNum.add(num);
+        }
+
+        ArrayList<Integer> result = calculator.filterNumBiggerOrEqualFive(arrayOfNum);
+
+        ArrayList<Integer> arrayResult = new ArrayList<Integer>();
+        arrayResult.add(5);
+        arrayResult.add(10);
+        arrayResult.add(100);
+
+        //THEN
+        assertEquals(arrayResult, result);
+    }
 }

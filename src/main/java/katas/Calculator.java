@@ -9,19 +9,13 @@ public class Calculator {
         return this.total;
     }
 
-    ;
-
     public void sum(double num) {
         this.total += num;
     }
 
-    ;
-
     public void rest(double num) {
         this.total -= num;
     }
-
-    ;
 
     public void multi(double num) {
         this.total *= num;
@@ -31,7 +25,6 @@ public class Calculator {
         this.total /= num;
     }
 
-    // NO ESTÀ BÉ, HAURIA DE SER PERCENTATGES....
     public void mod(double num) {
         this.total %= num;
     }
@@ -50,14 +43,24 @@ public class Calculator {
         } else {
             return num2;
         }
-
-
     }
 
-    /*public int sumArray(arr) {
-        ArrayList<Integer> arr = new ArrayList<Integer>(num1, num2)
-        for (double i : numsArray) {
-            return this.sum( += i)
-        } ;
-    }*/
+    public void sumArrayNum(double[] array) {
+        double result = 0;
+        for (double num : array) {
+            result += num;
+        }
+        this.total = result;
+    }
+
+    public ArrayList<Integer> filterNumBiggerOrEqualFive(ArrayList <Integer> arrayOfNum) {
+        ArrayList <Integer> filteredArray = new ArrayList<Integer>();
+
+        for (int num : arrayOfNum) {
+            if(num >= 5){
+                filteredArray.add(num);
+            }
+        }
+        return filteredArray;
+    }
 }
