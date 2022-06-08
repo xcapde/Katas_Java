@@ -3,6 +3,7 @@ package katas;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -119,10 +120,14 @@ class CalculatorTest {
 
         ArrayList<Integer> result = calculator.filterNumBiggerOrEqualFive(arrayOfNum);
 
+        /* 1
         ArrayList<Integer> arrayResult = new ArrayList<>();
         arrayResult.add(5);
         arrayResult.add(10);
-        arrayResult.add(100);
+        arrayResult.add(100);*/
+
+        // 2
+        List<Integer> arrayResult = List.of(5,10,100);
 
         //THEN
         assertEquals(arrayResult, result);
