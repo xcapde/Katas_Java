@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21be5142-d840-4c56-a1c1-12e85d74ab96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/katas/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/katas/FizzBuzzTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/katas/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/katas/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +64,8 @@
       <recent name="katas" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CalculatorTest">
-    <configuration name="CalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FizzBuzzTest">
+    <configuration name="FizzBuzzTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -77,7 +78,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.CalculatorTest&quot;" />
+            <option value="&quot;katas.FizzBuzzTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -87,7 +88,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CalculatorTest.restNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FizzBuzzTest.is3Multiple" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -100,7 +101,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.CalculatorTest.restNumber&quot;" />
+            <option value="&quot;katas.FizzBuzzTest.is3Multiple&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -110,7 +111,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CalculatorTest.returnListNumsBiggerEqualFive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FizzBuzzTest.is3and5Multiple" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -123,7 +124,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.CalculatorTest.returnListNumsBiggerEqualFive&quot;" />
+            <option value="&quot;katas.FizzBuzzTest.is3and5Multiple&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -133,7 +134,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CalculatorTest.returnSumArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FizzBuzzTest.is5Multiple" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -146,7 +147,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.CalculatorTest.returnSumArray&quot;" />
+            <option value="&quot;katas.FizzBuzzTest.is5Multiple&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -156,7 +157,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CalculatorTest.sumNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FizzBuzzTest.isNot3and5Multiple" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -169,7 +170,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.CalculatorTest.sumNumber&quot;" />
+            <option value="&quot;katas.FizzBuzzTest.isNot3and5Multiple&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -181,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CalculatorTest" />
-        <item itemvalue="Gradle.CalculatorTest.returnListNumsBiggerEqualFive" />
-        <item itemvalue="Gradle.CalculatorTest.returnSumArray" />
-        <item itemvalue="Gradle.CalculatorTest.restNumber" />
-        <item itemvalue="Gradle.CalculatorTest.sumNumber" />
+        <item itemvalue="Gradle.FizzBuzzTest" />
+        <item itemvalue="Gradle.FizzBuzzTest.isNot3and5Multiple" />
+        <item itemvalue="Gradle.FizzBuzzTest.is3Multiple" />
+        <item itemvalue="Gradle.FizzBuzzTest.is3and5Multiple" />
+        <item itemvalue="Gradle.FizzBuzzTest.is5Multiple" />
       </list>
     </recent_temporary>
   </component>
