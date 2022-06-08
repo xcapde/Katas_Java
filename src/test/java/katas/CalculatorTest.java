@@ -110,7 +110,7 @@ class CalculatorTest {
         //GIVEN
         Calculator calculator = new Calculator();
         int[] arrayOrigin = {3, 4, 5, 10, 100};
-        ArrayList<Integer> arrayOfNum = new ArrayList<Integer>();
+        ArrayList<Integer> arrayOfNum = new ArrayList<>();
 
         //WHEN
         for (int num : arrayOrigin) {
@@ -119,7 +119,7 @@ class CalculatorTest {
 
         ArrayList<Integer> result = calculator.filterNumBiggerOrEqualFive(arrayOfNum);
 
-        ArrayList<Integer> arrayResult = new ArrayList<Integer>();
+        ArrayList<Integer> arrayResult = new ArrayList<>();
         arrayResult.add(5);
         arrayResult.add(10);
         arrayResult.add(100);
