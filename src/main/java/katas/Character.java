@@ -28,6 +28,9 @@ public class Character {
     }
 
     public int isDamaged(int damageAmount, Character character){
+        if(this == character) {
+            return this.health;
+        }
         return this.health -= damageAmount;
     }
 
@@ -36,14 +39,10 @@ public class Character {
     }
 
     public int isHealed(int healingAmount, Character character){
+        if(this != character){
+            return this.health;
+        }
         return this.health += healingAmount;
     }
-
-/*
-    public boolean canBeDamaged(Character){
-        return Character.class
-    }
-
-    public.Character.self = this;*/
 
 }
