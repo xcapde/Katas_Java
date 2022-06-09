@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21be5142-d840-4c56-a1c1-12e85d74ab96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/katas/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/katas/FizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/katas/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/katas/CharacterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/katas/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/katas/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +50,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -64,8 +65,8 @@
       <recent name="katas" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FizzBuzzTest">
-    <configuration name="FizzBuzzTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CharacterTest">
+    <configuration name="CharacterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -78,7 +79,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.FizzBuzzTest&quot;" />
+            <option value="&quot;katas.CharacterTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -88,7 +89,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FizzBuzzTest.is3Multiple" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CharacterTest.characterDiesIfDamageExceedsHealth" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -101,7 +102,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.FizzBuzzTest.is3Multiple&quot;" />
+            <option value="&quot;katas.CharacterTest.characterDiesIfDamageExceedsHealth&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -111,7 +112,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FizzBuzzTest.is3and5Multiple" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CharacterTest.damageIsTakenFromHealth" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -124,7 +125,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.FizzBuzzTest.is3and5Multiple&quot;" />
+            <option value="&quot;katas.CharacterTest.damageIsTakenFromHealth&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -134,7 +135,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FizzBuzzTest.is5Multiple" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CharacterTest.deadCharacterCantBeHealed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -147,7 +148,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.FizzBuzzTest.is5Multiple&quot;" />
+            <option value="&quot;katas.CharacterTest.deadCharacterCantBeHealed&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -157,7 +158,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FizzBuzzTest.isNot3and5Multiple" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CharacterTest.healCannotRise1000Health" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -170,7 +171,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.FizzBuzzTest.isNot3and5Multiple&quot;" />
+            <option value="&quot;katas.CharacterTest.healCannotRise1000Health&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -182,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FizzBuzzTest" />
-        <item itemvalue="Gradle.FizzBuzzTest.isNot3and5Multiple" />
-        <item itemvalue="Gradle.FizzBuzzTest.is3Multiple" />
-        <item itemvalue="Gradle.FizzBuzzTest.is3and5Multiple" />
-        <item itemvalue="Gradle.FizzBuzzTest.is5Multiple" />
+        <item itemvalue="Gradle.CharacterTest" />
+        <item itemvalue="Gradle.CharacterTest.healCannotRise1000Health" />
+        <item itemvalue="Gradle.CharacterTest.deadCharacterCantBeHealed" />
+        <item itemvalue="Gradle.CharacterTest.characterDiesIfDamageExceedsHealth" />
+        <item itemvalue="Gradle.CharacterTest.damageIsTakenFromHealth" />
       </list>
     </recent_temporary>
   </component>

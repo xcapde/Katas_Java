@@ -30,19 +30,22 @@ public class Calculator {
     }
 
     public boolean isEven(double num) {
-        if (num % 2 == 0.00) {
+        return num % 2 == 0;
+
+        /*if (num % 2 == 0.00) {
             return true;
         } else {
             return false;
-        }
+        }*/
     }
 
     public double isBigger(double num1, double num2) {
-        if (num1 > num2) {
+        /*if (num1 > num2) {
             return num1;
         } else {
             return num2;
-        }
+        }*/
+        return Math.max(num1, num2);
     }
 
     public void sumArrayNum(double[] array) {
@@ -54,7 +57,7 @@ public class Calculator {
     }
 
     public ArrayList<Integer> filterNumBiggerOrEqualFive(ArrayList <Integer> arrayOfNum) {
-        ArrayList <Integer> filteredArray = new ArrayList<Integer>();
+        ArrayList <Integer> filteredArray = new ArrayList<>();
 
         for (int num : arrayOfNum) {
             if(num >= 5){
