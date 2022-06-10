@@ -126,22 +126,35 @@ class CharacterTest {
         assertEquals(950, result);
     }
 
-    /*@Test
-    void characterCanOnlyHealItself() {
+    @Test
+    void ifTargetLevelIs5orMoreAboveDamageIsReducedHalf() {
         //GIVEN
         Character naruto = new Character();
         Character freezer = new Character();
         int damage = 200;
+        freezer.setLevel(10);
 
         //WHEN
-        freezer.getInitLevel();
-        naruto.isDamaged(damage, freezer);
-
-        int result = naruto.isHealed(healing, naruto);
+        int result = freezer.isDamaged(damage, naruto);
 
         //THEN
-        assertEquals(950, result);
-    }*/
+        assertEquals(900, result);
+    }
+
+    @Test
+    void ifTargetLevelIs5orMoreBelowDamageIsIncreasedHalf() {
+        //GIVEN
+        Character naruto = new Character();
+        Character freezer = new Character();
+        int damage = 200;
+        naruto.setLevel(10);
+
+        //WHEN
+        int result = freezer.isDamaged(damage, naruto);
+
+        //THEN
+        assertEquals(600, result);
+    }
 }
 
         // System.out.println(naruto.canBeHealed());

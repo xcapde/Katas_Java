@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21be5142-d840-4c56-a1c1-12e85d74ab96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/katas/CharacterS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/katas/CharacterSTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/katas/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/katas/Character.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/katas/CharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/katas/CharacterTest.java" afterDir="false" />
@@ -134,7 +136,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CharacterTest.deadCharacterCantBeHealed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CharacterTest.ifTargetLevelIs5orMoreAboveDamageIsReducedHalf" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -147,7 +149,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.CharacterTest.deadCharacterCantBeHealed&quot;" />
+            <option value="&quot;katas.CharacterTest.ifTargetLevelIs5orMoreAboveDamageIsReducedHalf&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -157,7 +159,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CharacterTest.healCannotRise1000Health" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CharacterTest.ifTargetLevelIs5orMoreBelowDamageIsIncreasedHalf" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -170,7 +172,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.CharacterTest.healCannotRise1000Health&quot;" />
+            <option value="&quot;katas.CharacterTest.ifTargetLevelIs5orMoreBelowDamageIsIncreasedHalf&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -183,10 +185,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.CharacterTest" />
+        <item itemvalue="Gradle.CharacterTest.ifTargetLevelIs5orMoreBelowDamageIsIncreasedHalf" />
+        <item itemvalue="Gradle.CharacterTest.ifTargetLevelIs5orMoreAboveDamageIsReducedHalf" />
         <item itemvalue="Gradle.CharacterTest.characterCanOnlyHealItself" />
         <item itemvalue="Gradle.CharacterTest.characterCannotDamageItself" />
-        <item itemvalue="Gradle.CharacterTest.healCannotRise1000Health" />
-        <item itemvalue="Gradle.CharacterTest.deadCharacterCantBeHealed" />
       </list>
     </recent_temporary>
   </component>
