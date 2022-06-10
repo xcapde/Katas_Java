@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21be5142-d840-4c56-a1c1-12e85d74ab96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/katas/CharacterS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/katas/CharacterSTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/katas/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/katas/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/katas/CharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/katas/CharacterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/katas/CharacterS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/katas/CharacterS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/katas/CharacterSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/katas/CharacterSTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +64,8 @@
       <recent name="katas" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CharacterTest">
-    <configuration name="CharacterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CharacterSTest">
+    <configuration name="CharacterSTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -80,7 +78,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.CharacterTest&quot;" />
+            <option value="&quot;katas.CharacterSTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -90,7 +88,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CharacterTest.characterCanOnlyHealItself" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CharacterSTest.characterCanHealItself" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -103,7 +101,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.CharacterTest.characterCanOnlyHealItself&quot;" />
+            <option value="&quot;katas.CharacterSTest.characterCanHealItself&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -113,7 +111,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CharacterTest.characterCannotDamageItself" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CharacterSTest.characterCanOnlyHealItself" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -126,7 +124,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.CharacterTest.characterCannotDamageItself&quot;" />
+            <option value="&quot;katas.CharacterSTest.characterCanOnlyHealItself&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -136,7 +134,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CharacterTest.ifTargetLevelIs5orMoreAboveDamageIsReducedHalf" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CharacterSTest.characterCannotRise1000Health" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -149,7 +147,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.CharacterTest.ifTargetLevelIs5orMoreAboveDamageIsReducedHalf&quot;" />
+            <option value="&quot;katas.CharacterSTest.characterCannotRise1000Health&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -159,7 +157,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CharacterTest.ifTargetLevelIs5orMoreBelowDamageIsIncreasedHalf" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CharacterSTest.deadCharacterCannotBeHealed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -172,7 +170,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.CharacterTest.ifTargetLevelIs5orMoreBelowDamageIsIncreasedHalf&quot;" />
+            <option value="&quot;katas.CharacterSTest.deadCharacterCannotBeHealed&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -184,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CharacterTest" />
-        <item itemvalue="Gradle.CharacterTest.ifTargetLevelIs5orMoreBelowDamageIsIncreasedHalf" />
-        <item itemvalue="Gradle.CharacterTest.ifTargetLevelIs5orMoreAboveDamageIsReducedHalf" />
-        <item itemvalue="Gradle.CharacterTest.characterCanOnlyHealItself" />
-        <item itemvalue="Gradle.CharacterTest.characterCannotDamageItself" />
+        <item itemvalue="Gradle.CharacterSTest" />
+        <item itemvalue="Gradle.CharacterSTest.characterCanHealItself" />
+        <item itemvalue="Gradle.CharacterSTest.characterCanOnlyHealItself" />
+        <item itemvalue="Gradle.CharacterSTest.characterCannotRise1000Health" />
+        <item itemvalue="Gradle.CharacterSTest.deadCharacterCannotBeHealed" />
       </list>
     </recent_temporary>
   </component>
