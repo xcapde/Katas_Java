@@ -1,12 +1,12 @@
 package biblio;
 
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 public class Author {
     private String name;
     private Set<Book> bookList = new HashSet<>();
+    // S'utilitza el Set perquè no repeteixi el contingut de la llista.
 
     public int countBooks(){
         return this.bookList.size();

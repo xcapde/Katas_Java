@@ -19,4 +19,12 @@ class BookTest {
         assertEquals(author,book.getAuthor());
     }
 
+    @Test
+    void checkIfBookIsRented(){
+        Author author = new Author();
+        Book book = new Book("Fall of Giants", author);
+        boolean result = book.isRented();
+
+        assertFalse(result);
+    }
 }

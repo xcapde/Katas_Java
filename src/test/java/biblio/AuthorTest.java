@@ -18,9 +18,9 @@ class AuthorTest {
     }
 
     @Test
-    void authorCanAddABooks(){
+    void authorCanAddBooks(){
         var author = new Author();
-        Book book = new Book ("title", author);
+        var book = new Book ("title", author);
         author.addBook(book);
         assertEquals(1,author.countBooks());
     }

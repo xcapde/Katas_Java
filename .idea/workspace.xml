@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21be5142-d840-4c56-a1c1-12e85d74ab96" name="Changes" comment="" />
+    <list default="true" id="21be5142-d840-4c56-a1c1-12e85d74ab96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/biblio/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/biblio/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/biblio/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biblio/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/biblio/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biblio/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/biblio/AuthorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/biblio/AuthorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/biblio/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/biblio/BookTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +70,7 @@
       <recent name="katas" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AuthorTest">
+  <component name="RunManager" selected="Gradle.UserTest.countBooksRentedByUser">
     <configuration name="AuthorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -132,7 +140,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CharacterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserTest.countBooksRentedByUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -145,7 +153,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.CharacterTest&quot;" />
+            <option value="&quot;biblio.UserTest.countBooksRentedByUser&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -155,7 +163,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CharacterXTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserTest.userCanRentBooks" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -168,7 +176,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;katas.CharacterXTest&quot;" />
+            <option value="&quot;biblio.UserTest.userCanRentBooks&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -180,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UserTest.countBooksRentedByUser" />
+        <item itemvalue="Gradle.UserTest.userCanRentBooks" />
         <item itemvalue="Gradle.AuthorTest" />
-        <item itemvalue="Gradle.BookTest.bookCanCreateWithAttributes" />
         <item itemvalue="Gradle.CharacterSTest" />
-        <item itemvalue="Gradle.CharacterXTest" />
-        <item itemvalue="Gradle.CharacterTest" />
+        <item itemvalue="Gradle.BookTest.bookCanCreateWithAttributes" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +212,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="biblio_exercise" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
