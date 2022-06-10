@@ -57,5 +57,4 @@ public class CharacterS {
         this.health += heal;
         if (this.health > maxHealth) this.health = maxHealth;
     }
-
 }
