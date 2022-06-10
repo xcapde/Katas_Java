@@ -92,4 +92,49 @@ class CharacterSTest {
         assertEquals(500, victim.getHealth());
     }
 
+    @Test
+    void ifTargetLevelIs5OrMoreAboveAttackerDamageReducedByHalf(){
+        var attacker = new CharacterS();
+        var victim = new CharacterS();
+        victim.setLevel(6); //LIMIT
+
+        attacker.attacksOther(victim, 200);
+
+        assertEquals(900, victim.getHealth());
+    }
+
+    @Test
+    void ifTargetLevelIs5OrMoreBelowAttackerDamageIncreasedByHalf(){
+        var attacker = new CharacterS();
+        var victim = new CharacterS();
+        attacker.setLevel(6); //LIMIT
+
+        attacker.attacksOther(victim, 200);
+
+        assertEquals(600, victim.getHealth());
+    }
+
+//    @Test
+//    void meleeFightersHaveARangeOf2mAndRangedFightersHaveARangeOf20m(){
+//        var attacker = new CharacterS();
+//        var victim = new CharacterS();
+//
+//        attacker.setTypeOfFighter("Melee");
+//        victim.setTypeOfFighter("Ranged");
+//
+//        assertEquals(2, attacker.getAttackMaxRange());
+//        assertEquals(20, victim.getAttackMaxRange());
+//    }
+//
+//    @Test
+//    void fightersMustBeInRangeToDamageATarget(){
+//        var attacker = new CharacterS();
+//        var victim = new CharacterS();
+//        attacker.setTypeOfFighter("Melee");
+//        victim.setTypeOfFighter("Ranged");
+//
+//        assertEquals(2, attacker.getAttackMaxRange());
+//        assertEquals(20, victim.getAttackMaxRange());
+//    }
+
 }

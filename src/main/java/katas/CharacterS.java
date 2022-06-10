@@ -1,10 +1,14 @@
 package katas;
 
 public class CharacterS {
+
     private int maxHealth = 1000;
     private int health = 1000;
     private int level = 1;
     private boolean alive = true;
+//    private int attackMaxRange = 1;
+//    private String typeOfFighter = "";
+
 
     public int getHealth(){
         return this.health;
@@ -17,9 +21,24 @@ public class CharacterS {
     public boolean isAlive() {
         return alive;
     }
+//    public int getAttackMaxRange() {
+//        return attackMaxRange;
+//    }
+
+    public void setLevel(int level) {
+        this.level = level;
+    }
+
+//    public void setTypeOfFighter(String typeOfFighter) {
+//        if (typeOfFighter == "Melee"){this.attackMaxRange = 2;}
+//        if (typeOfFighter == "Ranged"){this.attackMaxRange = 20;};
+//        this.typeOfFighter = typeOfFighter;
+//    }
 
     public void attacksOther(CharacterS victim, int damage){
         if ( victim == this) return;
+        if (victim.level - this.level >= 5) { damage = damage / 2;}
+        if (this.level - victim.level >= 5) { damage = damage * 2;}
         victim.damage(damage);
     }
 
@@ -42,5 +61,6 @@ public class CharacterS {
         this.health += heal;
         if (this.health > maxHealth) this.health = maxHealth;
     }
+
 
 }
