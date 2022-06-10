@@ -1,6 +1,6 @@
 package katas;
 
-public class Character {
+public class CharacterX {
 
     // VARIABLES
     private String name = "";
@@ -38,7 +38,7 @@ public class Character {
     }
 
     // OTHERS METHODS
-    public int isDamaged(int damageAmount, Character character){
+    public int isDamaged(int damageAmount, CharacterX character){
         if(this == character) {
             return this.health;
         }
@@ -52,7 +52,7 @@ public class Character {
         return this.isAlive() && this.health <= this.maxHealth;
     }
 
-    public int isHealed(int healingAmount, Character character){
+    public int isHealed(int healingAmount, CharacterX character){
         if(this != character){
             return this.health;
         }

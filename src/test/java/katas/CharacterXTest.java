@@ -4,14 +4,14 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CharacterTest {
+class CharacterXTest {
 
     // 1
 
     @Test
     void allCharactersWhenCreatedStartsWith1000Health() {
         //GIVEN
-        Character naruto = new Character();
+        CharacterX naruto = new CharacterX();
         //WHEN
         int result = naruto.getInitHealth();
         //THEN
@@ -21,7 +21,7 @@ class CharacterTest {
     @Test
     void allCharactersWhenCreatedStartsWith1Level() {
         //GIVEN
-        Character naruto = new Character();
+        CharacterX naruto = new CharacterX();
         //WHEN
         int result = naruto.getInitLevel();
         //THEN
@@ -31,7 +31,7 @@ class CharacterTest {
     @Test
     void allCharactersWhenCreatedStartsWithTrueAlive() {
         //GIVEN
-        Character naruto = new Character();
+        CharacterX naruto = new CharacterX();
         //WHEN
         boolean result = naruto.getAliveStatus();
         //THEN
@@ -41,8 +41,8 @@ class CharacterTest {
     @Test
     void damageIsTakenFromHealth() {
         //GIVEN
-        Character naruto = new Character();
-        Character freezer = new Character();
+        CharacterX naruto = new CharacterX();
+        CharacterX freezer = new CharacterX();
         int damage = 75;
         //WHEN
         int result = naruto.isDamaged(damage, freezer);
@@ -53,8 +53,8 @@ class CharacterTest {
     @Test
     void characterDiesIfDamageExceedsHealth() {
         //GIVEN
-        Character naruto = new Character();
-        Character freezer = new Character();
+        CharacterX naruto = new CharacterX();
+        CharacterX freezer = new CharacterX();
         int damage = 1100;
         //WHEN
         naruto.isDamaged(damage, freezer);
@@ -66,8 +66,8 @@ class CharacterTest {
     @Test
     void deadCharacterCantBeHealed() {
         //GIVEN
-        Character naruto = new Character();
-        Character freezer = new Character();
+        CharacterX naruto = new CharacterX();
+        CharacterX freezer = new CharacterX();
         int damage = 1050;
         //WHEN
         naruto.isDamaged(damage, freezer);
@@ -79,8 +79,8 @@ class CharacterTest {
     @Test
     void healCannotRise1000Health() {
         //GIVEN
-        Character naruto = new Character();
-        Character freezer = new Character();
+        CharacterX naruto = new CharacterX();
+        CharacterX freezer = new CharacterX();
         int damage = 300;
         int healing = 299;
 
@@ -99,7 +99,7 @@ class CharacterTest {
     @Test
     void characterCannotDamageItself() {
         //GIVEN
-        Character naruto = new Character();
+        CharacterX naruto = new CharacterX();
         int damage = 400;
 
         //WHEN
@@ -112,8 +112,8 @@ class CharacterTest {
     @Test
     void characterCanOnlyHealItself() {
         //GIVEN
-        Character naruto = new Character();
-        Character freezer = new Character();
+        CharacterX naruto = new CharacterX();
+        CharacterX freezer = new CharacterX();
         int damage = 400;
         int healing = 350;
 
@@ -129,8 +129,8 @@ class CharacterTest {
     @Test
     void ifTargetLevelIs5orMoreAboveDamageIsReducedHalf() {
         //GIVEN
-        Character naruto = new Character();
-        Character freezer = new Character();
+        CharacterX naruto = new CharacterX();
+        CharacterX freezer = new CharacterX();
         int damage = 200;
         freezer.setLevel(10);
 
@@ -144,8 +144,8 @@ class CharacterTest {
     @Test
     void ifTargetLevelIs5orMoreBelowDamageIsIncreasedHalf() {
         //GIVEN
-        Character naruto = new Character();
-        Character freezer = new Character();
+        CharacterX naruto = new CharacterX();
+        CharacterX freezer = new CharacterX();
         int damage = 200;
         naruto.setLevel(10);
 
