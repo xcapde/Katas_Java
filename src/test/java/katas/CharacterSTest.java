@@ -114,18 +114,15 @@ class CharacterSTest {
         assertEquals(600, victim.getHealth());
     }
 
-//    @Test
-//    void meleeFightersHaveARangeOf2mAndRangedFightersHaveARangeOf20m(){
-//        var attacker = new CharacterS();
-//        var victim = new CharacterS();
-//
-//        attacker.setTypeOfFighter("Melee");
-//        victim.setTypeOfFighter("Ranged");
-//
-//        assertEquals(2, attacker.getAttackMaxRange());
-//        assertEquals(20, victim.getAttackMaxRange());
-//    }
-//
+    @Test
+    void meleeFightersHaveARangeOf2mAndRangedFightersHaveARangeOf20m(){
+        var attacker = new MeleeFighter("naruto");
+        var victim = new RangedFighter("freezer");
+
+        assertEquals(2, attacker.getAttackMaxRange());
+        assertEquals(20, victim.getAttackMaxRange());
+    }
+
 //    @Test
 //    void fightersMustBeInRangeToDamageATarget(){
 //        var attacker = new CharacterS();
