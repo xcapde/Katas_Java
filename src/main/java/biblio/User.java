@@ -4,11 +4,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class User {
-    private String name;
     private Set<Book> booksRentedList = new HashSet<>();
 
     public void rentBook(Book book){
-        if(book.isRented()==false){
+        if(!book.isRented()){
             this.booksRentedList.add(book);
             book.setRented(true);
         } return;
