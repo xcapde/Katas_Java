@@ -67,7 +67,7 @@
       <recent name="katas" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CharacterSTest.fightersMustBeInRangeToDamageATarget">
+  <component name="RunManager" selected="Gradle.CharacterSTest">
     <configuration name="AuthorTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -185,8 +185,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CharacterSTest.fightersMustBeInRangeToDamageATarget" />
         <item itemvalue="Gradle.CharacterSTest" />
+        <item itemvalue="Gradle.CharacterSTest.fightersMustBeInRangeToDamageATarget" />
         <item itemvalue="Gradle.BookTest" />
         <item itemvalue="Gradle.AuthorTest (1)" />
         <item itemvalue="Gradle.UserTest (1)" />
