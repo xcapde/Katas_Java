@@ -82,7 +82,7 @@
       <recent name="katas" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TaskServiceTest.saveTaskTest">
+  <component name="RunManager" selected="Gradle.CharacterSTest">
     <configuration name="AnimalsTest.catCanTalk" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -200,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CharacterSTest" />
         <item itemvalue="Gradle.TaskServiceTest.saveTaskTest" />
         <item itemvalue="Gradle.AnimalsTest.catCanTalk" />
         <item itemvalue="Gradle.CharacterSTest.fighterMayJoinToFactionsAndNewOneBelongsToNoFaction" />
         <item itemvalue="Gradle.CharacterSTest.fighterMayLeaveFactions" />
-        <item itemvalue="Gradle.CharacterSTest" />
       </list>
     </recent_temporary>
   </component>

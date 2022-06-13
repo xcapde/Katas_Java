@@ -1,4 +1,4 @@
-package katas;
+package katas.RPGcombat;
 
 public class CharacterX {
 

@@ -1,5 +1,9 @@
 package katas;
 
+import katas.RPGcombat.CharacterS;
+import katas.RPGcombat.Faction;
+import katas.RPGcombat.MeleeFighter;
+import katas.RPGcombat.RangedFighter;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

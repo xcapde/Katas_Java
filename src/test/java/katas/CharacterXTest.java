@@ -1,5 +1,6 @@
 package katas;
 
+import katas.RPGcombat.CharacterX;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

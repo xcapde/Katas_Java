@@ -1,4 +1,4 @@
-package katas;
+package katas.RPGcombat;
 
 import java.util.HashSet;
 import java.util.Set;
