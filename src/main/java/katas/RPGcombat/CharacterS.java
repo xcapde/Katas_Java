@@ -8,7 +8,6 @@ public class CharacterS {
     private boolean alive = true;
     private int attackMaxRange = 1;
     private int position = 0;
-    private boolean belongsToAFaction = false;
     public int getHealth(){
         return this.health;
     }
@@ -23,10 +22,6 @@ public class CharacterS {
 
     public int getAttackMaxRange() {
         return attackMaxRange;
-    }
-
-    public boolean belongsToAFaction() {
-        return belongsToAFaction;
     }
 
     public void setLevel(int level) {

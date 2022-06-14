@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21be5142-d840-4c56-a1c1-12e85d74ab96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/animals/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animals/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animals/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animals/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/katas/Faction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/MongoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/MySqlRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/animals/AnimalsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tasks/TaskServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/katas/CharacterS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/katas/CharacterS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/katas/Factions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/katas/RPGcombat/CharacterS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/katas/RPGcombat/CharacterS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/katas/RPGcombat/Faction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/katas/RPGcombat/Faction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/katas/CharacterSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/katas/CharacterSTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +63,10 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="katas.RPGcombat" />
+      <recent name="RPGcombat" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="tasks" />
       <recent name="animals" />
@@ -83,29 +75,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.CharacterSTest">
-    <configuration name="AnimalsTest.catCanTalk" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;animals.AnimalsTest.catCanTalk&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="CharacterSTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -120,6 +89,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;katas.CharacterSTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CharacterSTest.fighterInTheSameFactionAreAllies" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;katas.CharacterSTest.fighterInTheSameFactionAreAllies&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -152,7 +144,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CharacterSTest.fighterMayLeaveFactions" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CharacterSTest.fighterMayLeaveFactions (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -201,10 +193,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.CharacterSTest" />
-        <item itemvalue="Gradle.TaskServiceTest.saveTaskTest" />
-        <item itemvalue="Gradle.AnimalsTest.catCanTalk" />
+        <item itemvalue="Gradle.CharacterSTest.fighterInTheSameFactionAreAllies" />
+        <item itemvalue="Gradle.CharacterSTest.fighterMayLeaveFactions (1)" />
         <item itemvalue="Gradle.CharacterSTest.fighterMayJoinToFactionsAndNewOneBelongsToNoFaction" />
-        <item itemvalue="Gradle.CharacterSTest.fighterMayLeaveFactions" />
+        <item itemvalue="Gradle.TaskServiceTest.saveTaskTest" />
       </list>
     </recent_temporary>
   </component>

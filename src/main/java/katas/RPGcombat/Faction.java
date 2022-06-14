@@ -12,8 +12,12 @@ public class Faction extends CharacterS{
 
     private Set<CharacterS> fightersList = new HashSet<>();
 
+    public boolean containsFighter(CharacterS character){
+        return fightersList.contains(character);
+    }
+
     public void addFighter(CharacterS character){
-        if(!character.belongsToAFaction()){
+        if(!this.containsFighter(character)){
         this.fightersList.add(character);}
     }
 
@@ -22,8 +26,11 @@ public class Faction extends CharacterS{
     }
 
     public void removeFighter(CharacterS character){
-        if(character.belongsToAFaction()){
+        if(this.containsFighter(character)){
             this.fightersList.remove(character);}
     }
 
+    public boolean fightersAreAllies(CharacterS character, CharacterS character2) {
+        return fightersList.contains(character) && fightersList.contains(character2);
+    }
 }

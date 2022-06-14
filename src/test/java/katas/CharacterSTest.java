@@ -142,7 +142,7 @@ class CharacterSTest {
     }
 
     @Test
-    void fighterMayJoinToFactionsAndNewOneBelongsToNoFaction() {
+    void fighterMayJoinToOneOrMoreFactions() {
         var melee = new MeleeFighter("Naruto");
         var range = new RangedFighter("Freezer");
         var range2 = new RangedFighter("DonPatch");
@@ -155,7 +155,6 @@ class CharacterSTest {
 
         assertEquals(2, faction1.countFighters());
         assertEquals(1, faction2.countFighters());
-        assertEquals(false, range2.belongsToAFaction());
     }
 
     @Test
@@ -170,6 +169,19 @@ class CharacterSTest {
 
         assertEquals(1, faction.countFighters());
     }
+
+    @Test
+    void fighterInTheSameFactionAreAllies() {
+        var melee = new MeleeFighter("Naruto");
+        var range = new RangedFighter("Freezer");
+        Faction faction = new Faction("Polar");
+
+        faction.addFighter(melee);
+        faction.addFighter(range);
+
+        assertEquals(true, faction.fightersAreAllies(melee, range));
+    }
+
 }
 
 //        System.out.println(attacker.getPosition());
